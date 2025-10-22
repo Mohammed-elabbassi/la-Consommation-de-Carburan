@@ -12,6 +12,7 @@ performances et produire un modèle déployable via une application Flask.
 •	Colonnes importées :
 ["mpg", "cylinders", "displacement", "horsepower", "weight", "acceleration", "model_year", "origin", "car_name"]
 •	Traitement initial :
+
 o	Les valeurs manquantes sont représentées par ? dans le fichier d’origine — chargement avec na_values='?'.
 o	Suppression des lignes contenant des valeurs manquantes (df.dropna()).
 o	Suppression de la colonne texte car_name (non informative pour la régression directe).
